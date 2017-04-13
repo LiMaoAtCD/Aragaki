@@ -7,12 +7,14 @@
 //
 
 import UIKit
-
+import Aragaki
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        Angel.name
+        print(Angel.name)
     }
 
     override func didReceiveMemoryWarning() {

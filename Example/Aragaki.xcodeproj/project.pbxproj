@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		40DEE704C63551FB94AF638B /* Pods_Aragaki_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aragaki_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		502587347BA9E36A49BF4B33 /* Aragaki.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Aragaki.podspec; path = ../Aragaki.podspec; sourceTree = "<group>"; };
+		502587347BA9E36A49BF4B33 /* Aragaki.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Aragaki.podspec; path = ../Aragaki.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Aragaki_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aragaki_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		679FF43E63EDEA47C7DF13BC /* Pods-Aragaki_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aragaki_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aragaki_Example/Pods-Aragaki_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71EBF8FB9C195880F4E0E9B3 /* Pods-Aragaki_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aragaki_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aragaki_Tests/Pods-Aragaki_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		759D4AE8676FC8180DB9E029 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		82677F38B6AD7BB865FF43B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		759D4AE8676FC8180DB9E029 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		82677F38B6AD7BB865FF43B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9D817EC9FE2EC7A148F7087C /* Pods_Aragaki_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aragaki_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60678C3E589431ECFA9025B /* Pods-Aragaki_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aragaki_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aragaki_Example/Pods-Aragaki_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D9A0687B64DB717B114EEB3B /* Pods-Aragaki_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aragaki_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aragaki_Tests/Pods-Aragaki_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SWM5MN65PP;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SWM5MN65PP;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = C60678C3E589431ECFA9025B /* Pods-Aragaki_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SWM5MN65PP;
 				INFOPLIST_FILE = Aragaki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = 679FF43E63EDEA47C7DF13BC /* Pods-Aragaki_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SWM5MN65PP;
 				INFOPLIST_FILE = Aragaki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9A0687B64DB717B114EEB3B /* Pods-Aragaki_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SWM5MN65PP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71EBF8FB9C195880F4E0E9B3 /* Pods-Aragaki_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = SWM5MN65PP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

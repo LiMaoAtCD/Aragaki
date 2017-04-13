@@ -1,0 +1,6 @@
+framework module Aragaki {
+  umbrella header "Aragaki-umbrella.h"
+
+  export *
+  module * { export * }
+}
